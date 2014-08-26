@@ -1,0 +1,79 @@
+<html>
+<head>
+	<title> Registration Form </title>
+	<script src="validat.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="signup_styling.css" type="text/css">
+</head>
+<body>
+    <div id="Main">
+        <fieldset style="padding: 5px;">
+            <table border="2" align="left" width="350">
+                <caption align="center"><h3> Registration Form <h3></caption>
+			<form name="myForm" method="post" onsubmit="return validateForm()">
+				<tr>
+					<td>First Name</td>
+					<td> <input id="fname" type="text" name="fname" size="30"/> </td>
+				</tr> 
+				<tr>
+					<td>Last Name</td>
+					<td> <input type="text" name="lastname" size="30"> </td>
+				</tr>
+				<tr>
+					<td>Address</td>
+					<td> <textarea name="add" rows="5" cols="29"> </textarea> </td>
+				</tr> 
+				<tr>
+					<td>Email ID</td>
+					<td> <input type="text" name="mail" size="30"> </td>
+				</tr> 
+				<tr>
+					<td>Mobile No</td>
+					<td> <input type="text" name="no" size="30"> </td>
+				</tr> 
+				 
+				<tr>
+					<td>Gender</td>
+					<td> <input type="radio" name="gender" value="Male">Male <br>
+					     <input type="radio" name="gender" value="Female" />Female
+				    </td>
+				</tr> 
+				<tr>
+					<td> City </td>
+					<td> <select name="city" width="30">
+				<option value="amd">Ahmedabad</option>
+				<option value="surat">Surat</option>
+				<option value="baroda">Baroda</option>
+				<option value="rajkot">Rajkot</option>
+				</select> </td>
+				</tr>
+				<tr>
+					<td width="100">Facility</td>
+					<td><input type="checkbox" name="f1" value="Hostel">Hostel<br>
+						<input type="checkbox" name="f2" value="Traspotation">Transpotaion <br>
+						<input type="checkbox" name="f3" value="Mess">Mess</td>
+				</tr> 
+				<tr>
+					<td>User Name</td>
+					<td> <input type="text" name="uname" size="30"> </td>
+				</tr> 
+				<tr>
+					<td>Password</td>
+					<td> <input type="password" name="pass" size="30"> </td>
+				</tr> 
+				<tr>
+					<td>Retype Password</td>
+					<td> <input type="password" name="rpass" size="30"> </td>
+				</tr> 
+
+				<tr>
+					<th align="center" colspan="2"><input type="submit" value="Submit"></th>
+
+				</tr>
+				 
+			</form>
+			</table>
+			<img src="background.png" height="630px" width="955px" style="margin-left: 10px;" />
+		</fieldset>
+	</div>
+</body>
+</html>

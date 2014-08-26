@@ -1,0 +1,13 @@
+body {
+	
+}
+
+table {
+	border-collapse: collapse;
+	background: url('background.png');
+}
+td {
+	border-style: none;
+	vertical-align: bottom;
+	padding: 5px;
+}
